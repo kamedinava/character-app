@@ -10,7 +10,7 @@ const SearchBar = ({ value, onChange, onSearch }) => {
         onChangeText={onChange}
         style={styles.input}
       />
-      <Button title="Buscar" onPress={onSearch}/>
+      
     </View>
   );
 };

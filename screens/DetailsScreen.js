@@ -15,21 +15,7 @@ const DetailsScreen = ({ route }) => {
   }
 
   return (
-    // <View style={styles.container}>
-    //   <Image source={{ uri: character.image }} style={styles.image} />
-    //   <Text style={styles.name}>{character.name}</Text>
-    //   <Text style={styles.detail}>Status: {character.status}</Text>
-    //   <Text style={styles.detail}>Species: {character.species}</Text>
-    //   <Text style={styles.detail}>Gender: {character.gender}</Text>
-    //   <Text style={styles.detail}>Origin: {character.origin.name}</Text>
-    //   <Text style={styles.detail}>Location: {character.location.name}</Text>
-    //   <Text style={styles.sectionTitle}>Episodes:</Text>
-    //     {character.episode.map((ep) => (
-    //     <View key={ep.id} style={styles.episodeItem}>
-    //         <Text>{ep.episode}: {ep.name}</Text>
-    //          </View>))}
-    // </View>
-    <ScrollView contentContainerStyle={styles.container}>
+        <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.header}>
         <Image source={{ uri: character.image }} style={styles.image} />
         <Text style={styles.name}>{character.name}</Text>
